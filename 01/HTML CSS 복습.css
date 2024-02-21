@@ -1,0 +1,35 @@
+*{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+div{
+    justify-content: right;
+}
+
+.button{
+    
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    height: 35px;
+    padding: auto;
+    border:0;
+    font-size: 15px;
+    text-align: center;
+}
+p{
+    
+
+}
+
+.img{
+    display: inline;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.text{
+    display: flex;
+}

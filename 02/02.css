@@ -1,0 +1,95 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    width: 60%;
+    background-color: lightblue;
+    margin-left: 20%;
+}
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+}
+
+header>h1 {
+    text-align: center;
+}
+
+nav>ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 10px;
+    list-style: none;
+    justify-content: right;
+}
+
+nav li {
+    margin: 5px;
+    padding: 10px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* 마우스 갔다대면 색 바뀜 */
+nav a:hover,
+nav li:hover {
+    background-color: brown;
+}
+
+header>h1 {
+    font-size: medium;
+    color: white;
+}
+
+article {
+    padding: 50px;
+}
+
+article>p {
+    margin-top: 20px;
+}
+
+section>div {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+section p {
+    margin-left: 20px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+footer>ul {
+    list-style: none;
+    padding: 40px;
+    background-color: black;
+    color: ghostwhite;
+}
+
+footer li {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        width: 100%;
+        margin-left: 0px;
+        background-color: burlywood;
+    }
+}

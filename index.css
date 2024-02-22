@@ -38,3 +38,13 @@ article li{
     margin: 10px;
     border: 1px dotted gray;
 }
+
+article a{
+    text-decoration: none;
+    color: black;
+}
+
+article li:hover{
+    background-color: goldenrod;
+    color: white;
+}

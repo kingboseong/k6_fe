@@ -11,7 +11,7 @@
         alert("안녕하세요");
     </script> -->
     <!-- 자바스크립트 외부 파일 (확장자 = .js) -->
-    <!-- <script src="./03.js"></script> -->
+    <script src="./03.js"></script>
     <title>K-디지털6기</title>
 </head>
 
@@ -25,13 +25,16 @@
         </header>
         <section>
             <h1>자바스크립트 함수이해하기</h1>
-            <div>
-                <button>버튼1</button>
-                <button>버튼2</button>
+            <div id="btArea">
+                <button onclick="handleClick(1)">버튼1</button>
+                <button onclick="handleClick(2)">버튼2</button>
             </div>
-            <div>
+            <div id="msgArea">
                 메세지 영역
             </div>
+
+            
+
         </section>
         <!-- 자바스크립트 위치2
         <script>

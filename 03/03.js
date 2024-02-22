@@ -4,11 +4,10 @@
     함수 작성 2 : 화살표 함수
     ret = 변수
     const = 상수
- */
+ */ function handleClick(n) {
+    document.querySelector("#msgArea").innerHTML = `<h2>버튼 ${n} 이 눌러졌습니다.</h2>`;
+}
 
-    const handleClick = (n) => {
-        document.querySelector("#msgArea").innerHTML = `<h2>버튼 ${n} 이 눌러졌습니다.</h2>`;
-    }
 
 /* 
     함수 작성 1 : 

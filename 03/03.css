@@ -13,7 +13,11 @@ button{
     background-color: green;
 }
 
-button:hover, #btArea2 > button:hover{
+#bt3{
+    background-color: darkblue;
+}
+
+button:hover, #btArea2 > button:hover, #bt3:hover{
     background-color: rgb(118, 12, 12);
     color: white;
     cursor: pointer;

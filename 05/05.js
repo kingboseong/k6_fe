@@ -1,5 +1,5 @@
 // document.addEventListener("DOMContentLoaded", () => {
-//     // All하면 전부 나옴
+//     // All하면 1개든 10개든 배열 구조로 해서 전부 나옴.
 // const bts = document.querySelectorAll("img");
 
 //     // console.log(bts)

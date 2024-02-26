@@ -10,12 +10,43 @@
 // })
 
 const handleClick = () => {  
-    const bts = document.querySelectorAll("img");
+    const bts = document.querySelectorAll("section > div > img");
+    const btsNum = [1,2,3] ;
 
-    bts.forEach((item) => {
-    const n = Math.floor(Math.random() * 6)+1 ;
-    item.setAttribute("src", `./img/${n}.png`);
+    //for of
+    // for(let[idx, bt ] of bts.entries()){
+    //     const n = Math.floor(Math.random() * 6)+1 ;
+    //     bt.setAttribute("src", `./img/${n}.png`); 
+    //     btsNum[idx] = n;
 
-    console.log("click", n)
-    });
+    //     console.log(btsNum)
+    // }
+
+    //for of => 파이썬의 for in
+    for(let bt of bts){
+        const n = Math.floor(Math.random() * 6)+1 ;
+        bt.setAttribute("src", `./img/${n}.png`); 
+    }
+
+    //for in
+    // for(let i in bts){
+    //     const n = Math.floor(Math.random() * 6)+1 ;
+    //     bts[i].setAttribute("src", `./img/${n}.png`); 
+        
+    //     console.log("fir in i=",i)
+    // }
+
+    //기본 for
+    // for(let i = 0; i < bts.length; i++){
+    //     const n = Math.floor(Math.random() * 6)+1 ;
+    //     bts[i].setAttribute("src", `./img/${n}.png`); 
+    // }
+
+
+    // bts.forEach((item) => {
+    // const n = Math.floor(Math.random() * 6)+1 ;
+    // item.setAttribute("src", `./img/${n}.png`);
+
+    // console.log("click", n)
+    // });
 }

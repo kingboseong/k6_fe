@@ -43,6 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     sel1.addEventListener("change", () => {
         handleChange(sel1, sel2, labels[0], labels[1], txt1, txt2)
+        
     })
     //form의 값은 .value로 가지고 온다.
     sel1.addEventListener("change", () => {
